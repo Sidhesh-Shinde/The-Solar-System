@@ -1,3 +1,4 @@
+/*================STARS===================*/
 #stars{
 	background: #425169 url(../img/stars.gif) top center no-repeat;
 	width: 100%;
@@ -7,6 +8,15 @@
 	z-index:100;
 }
 
+/*================IMAGES===================*/
+#images{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:200;
+}
+
+/*================CONTENT===================*/
 #content{
 	color: #fff;
 	position:relative;
@@ -15,13 +25,16 @@
 	z-index:300;
 }
 
-#images{
-	position:fixed;
-	top:0;
+
+/*================EARTH===================*/
+#earth{
 	width:100%;
-	z-index:200;
+	position:relative;
+	text-align:center;
+	z-index:999;
 }
 
+/*================NAVIGATION===================*/
 #main-nav{
 	background-color: #303d50;
 	height:35px;
@@ -54,27 +67,3 @@
 	font-weight: bold;
 	text-decoration:none;
 }
-
-#earth{
-	width:100%;
-	position:relative;
-	text-align:center;
-	z-index:999;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
